@@ -1,0 +1,35 @@
+.jokes-container {
+  margin-top: 50px;
+}
+
+.jokes-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.jokes-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.jokes-table th,
+.jokes-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+}
+
+.jokes-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.jokes-table td:first-child {
+  border-right: 1px solid black;
+}
+
+.jokes-table tbody tr:last-child td {
+  border-bottom: none;
+}
